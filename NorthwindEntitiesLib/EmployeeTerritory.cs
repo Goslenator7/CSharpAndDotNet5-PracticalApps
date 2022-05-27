@@ -11,10 +11,11 @@ namespace Packt.Shared
     [Keyless]
     public partial class EmployeeTerritory
     {
-        [Column("EmployeeID", TypeName = "int")]
-        public long EmployeeId { get; set; }
+        [Column(TypeName = "int")]
+        public long EmployeeID { get; set; }
+
         [Required]
-        [Column("TerritoryID", TypeName = "nvarchar")]
-        public string TerritoryId { get; set; }
+        [Column(TypeName = "nvarchar")]
+        public string TerritoryID { get; set; }
     }
 }
