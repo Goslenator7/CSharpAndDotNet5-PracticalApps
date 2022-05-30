@@ -32,3 +32,5 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\NorthwindWeb.RazorTargetAssemblyInfo.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\NorthwindWeb.Views.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\NorthwindWeb.csproj.CopyComplete
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
