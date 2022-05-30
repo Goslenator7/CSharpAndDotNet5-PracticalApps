@@ -405,6 +405,22 @@
           "bin/placeholder/NorthwindContextLib.dll": {}
         }
       },
+      "NorthwindEmployees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NorthwindContextLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthwindEmployees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthwindEmployees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "NorthwindEntitiesLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1098,6 +1114,11 @@
       "path": "../NorthwindContextLib/NorthwindContextLib.csproj",
       "msbuildProject": "../NorthwindContextLib/NorthwindContextLib.csproj"
     },
+    "NorthwindEmployees/1.0.0": {
+      "type": "project",
+      "path": "../NorthwindEmployees/NorthwindEmployees.csproj",
+      "msbuildProject": "../NorthwindEmployees/NorthwindEmployees.csproj"
+    },
     "NorthwindEntitiesLib/1.0.0": {
       "type": "project",
       "path": "../NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
@@ -1106,7 +1127,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "NorthwindContextLib >= 1.0.0"
+      "NorthwindContextLib >= 1.0.0",
+      "NorthwindEmployees >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1138,6 +1160,9 @@
           "projectReferences": {
             "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
               "projectPath": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+            },
+            "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj": {
+              "projectPath": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindEmployees\\NorthwindEmployees.csproj"
             }
           }
         }

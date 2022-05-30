@@ -21,7 +21,6 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.TagHelpers.input.cache
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.TagHelpers.output.cache
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorCoreGenerate.cache
-C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\MyFeature\Pages\Page1.cshtml.g.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorTargetAssemblyInfo.cache
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorTargetAssemblyInfo.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.Views.pdb
@@ -29,3 +28,6 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\ref\NorthwindEmployees.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\employees.cshtml.g.cs
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\Shared\_Employee.cshtml.g.cs
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\_ViewStart.cshtml.g.cs

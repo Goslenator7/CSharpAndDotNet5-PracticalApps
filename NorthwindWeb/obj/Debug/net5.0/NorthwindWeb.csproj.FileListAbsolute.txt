@@ -65,3 +65,8 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLib.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindContextLib.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.Views.dll
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.Views.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.dll
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindWeb\obj\Debug\net5.0\NorthwindWeb.MvcApplicationPartsAssemblyInfo.cs
