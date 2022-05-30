@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 using Packt.Shared;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 
 namespace NorthwindWeb.Pages
 {
@@ -9,10 +10,23 @@ namespace NorthwindWeb.Pages
     {
         private Northwind db;
         public IEnumerable<string> Suppliers { get; set; }
+        [BindProperty]
+        public Supplier Supplier { get; set; }
 
         public SuppliersModel(Northwind injectedContext)
         {
             db = injectedContext;
+        }
+
+        public IActionResult OnPost()
+        {
+            if (ModelState.IsValid)
+            {
+                db.Suppliers.Add(Supplier);
+                db.SaveChanges();
+                return RedirectToPage("/suppliers");
+            }
+            return Page();
         }
 
         public void OnGet()
