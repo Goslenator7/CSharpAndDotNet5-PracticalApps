@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using static System.Console;
 
 namespace NorthwindWeb
 {
@@ -22,6 +24,7 @@ namespace NorthwindWeb
             string databasePath = Path.Combine("..", "Northwind.db");
 
             services.AddRazorPages();
+
             services.AddDbContext<Northwind>(options => options.UseSqlite($"Data source={databasePath}"));
 
         }
@@ -39,6 +42,27 @@ namespace NorthwindWeb
             }
 
             app.UseRouting();
+
+            app.Use(async (HttpContext context, Func<Task> next) =>
+            {
+                var rep = context.GetEndpoint() as RouteEndpoint;
+                if (rep != null)
+                {
+                    WriteLine($"Endpoint name: {rep.DisplayName}");
+                    WriteLine($"Endpoint route pattern: {rep.RoutePattern.RawText}");
+                }
+
+                if (context.Request.Path == "/bonjour")
+                {
+                    // in the case of a match on URL path, this becomes a terminating delegate
+                    // that returns so the next delegate is not called
+                    await context.Response.WriteAsync("Bonjour Monde!");
+                    return;
+                }
+                // We could modify the request before calling the next delegate
+                await next();
+                // or we could modify the response after calling the next delegate
+            });
 
             app.UseHttpsRedirection();
             app.UseDefaultFiles(); // index.html, default.html etc.
