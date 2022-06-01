@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NorthwindContextLib",
-    "\\NorthwindEntitiesLib"
+    "\\SimpleWeb"
   ],
-  "SelectedNode": "\\NorthwindContextLib\\Northwind.cs",
+  "SelectedNode": "\\SimpleWeb\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
