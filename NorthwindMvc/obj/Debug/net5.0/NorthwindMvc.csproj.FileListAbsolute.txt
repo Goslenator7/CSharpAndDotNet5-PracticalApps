@@ -84,3 +84,4 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindContextLib.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Home\ProductDetail.cshtml.g.cs
