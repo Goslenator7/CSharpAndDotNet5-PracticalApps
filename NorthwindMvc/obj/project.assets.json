@@ -535,6 +535,34 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "NorthwindContextLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SQLite": "5.0.0-rc",
+          "NorthwindEntitiesLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthwindContextLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthwindContextLib.dll": {}
+        }
+      },
+      "NorthwindEntitiesLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.0-rc",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.0-rc"
+        },
+        "compile": {
+          "bin/placeholder/NorthwindEntitiesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthwindEntitiesLib.dll": {}
+        }
       }
     }
   },
@@ -1442,6 +1470,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NorthwindContextLib/1.0.0": {
+      "type": "project",
+      "path": "../NorthwindContextLib/NorthwindContextLib.csproj",
+      "msbuildProject": "../NorthwindContextLib/NorthwindContextLib.csproj"
+    },
+    "NorthwindEntitiesLib/1.0.0": {
+      "type": "project",
+      "path": "../NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
+      "msbuildProject": "../NorthwindEntitiesLib/NorthwindEntitiesLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1450,7 +1488,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.17",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
+      "NorthwindContextLib >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1479,7 +1518,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
+              "projectPath": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1531,7 +1574,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

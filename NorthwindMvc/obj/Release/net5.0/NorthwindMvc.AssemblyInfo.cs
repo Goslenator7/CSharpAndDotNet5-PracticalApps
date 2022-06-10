@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-NorthwindMvc-552E9146-A766-43D7-AE42-B4A393F4E2E9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthwindMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SimpleWeb"
+    "\\NorthwindMvc",
+    "\\NorthwindMvc\\Areas",
+    "\\NorthwindMvc\\Areas\\Identity",
+    "\\NorthwindMvc\\Areas\\Identity\\Pages",
+    "\\NorthwindMvc\\Controllers",
+    "\\NorthwindMvc\\Views",
+    "\\NorthwindMvc\\Views\\Home",
+    "\\NorthwindWeb\\Pages"
   ],
-  "SelectedNode": "\\SimpleWeb\\Program.cs",
+  "SelectedNode": "\\NorthwindMvc\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

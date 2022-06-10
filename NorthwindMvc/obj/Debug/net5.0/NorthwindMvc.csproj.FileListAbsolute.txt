@@ -7,7 +7,6 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.runtimeconfig.json
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.runtimeconfig.dev.json
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.dll
-C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\ref\NorthwindMvc.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.Views.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindMvc.Views.pdb
@@ -65,7 +64,6 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\NorthwindMvc.RazorCoreGenerate.cache
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -80,3 +78,9 @@ C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\D
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\ref\NorthwindMvc.dll
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\NorthwindMvc.pdb
 C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\NorthwindMvc.genruntimeconfig.cache
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\refint\NorthwindMvc.dll
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindContextLib.dll
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindEntitiesLib.dll
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindContextLib.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
+C:\Users\Ryan\Documents\Coding\C#AndDotNet5 Mk2\PracticalApps\NorthwindMvc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
