@@ -37,6 +37,23 @@ namespace NorthwindMvc.Controllers
             return View();
         }
 
+        public IActionResult ProductDetail(int? id)
+        {
+            if (!id.HasValue)
+            {
+                return NotFound("You must pass a product ID in the route , for example, /Home/ProductDetail/21");
+            }
+
+            var model = db.Products
+                .SingleOrDefault(p => p.ProductID == id);
+
+            if (model == null)
+            {
+                return NotFound($"Product with ID of {id} not found.");
+            }
+            return View(model); //pass model to view and then return result
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
