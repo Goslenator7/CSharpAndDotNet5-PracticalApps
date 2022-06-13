@@ -54,6 +54,17 @@ namespace NorthwindMvc.Controllers
             return View(model); //pass model to view and then return result
         }
 
+        public IActionResult ModelBinding()
+        {
+            return View(); // the page with a form to submit
+        }
+
+        [HttpPost]
+        public IActionResult ModelBinding(Thing thing)
+        {
+            return View(thing); // Show the model bound thing
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

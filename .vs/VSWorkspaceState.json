@@ -8,8 +8,8 @@
     "\\NorthwindMvc\\Controllers",
     "\\NorthwindMvc\\Views",
     "\\NorthwindMvc\\Views\\Home",
-    "\\NorthwindWeb\\Pages"
+    "\\NorthwindMvc\\Views\\Shared"
   ],
-  "SelectedNode": "\\NorthwindMvc\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\NorthwindMvc\\Views\\Home\\ProductDetail.cshtml",
   "PreviewInSolutionExplorer": false
 }
