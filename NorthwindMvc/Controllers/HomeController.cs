@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NorthwindMvc.Models;
 using Packt.Shared;
+using Microsoft.EntityFrameworkCore;
 
 namespace NorthwindMvc.Controllers
 {
@@ -73,6 +74,27 @@ namespace NorthwindMvc.Controllers
                     .Select(error => error.ErrorMessage)
             };
             return View(model);
+        }
+
+        public IActionResult ProductsThatCostMoreThan(decimal? price)
+        {
+            if (!price.HasValue)
+            {
+                return NotFound("You must pass a product price in the query string, for example: /home/ProductsThatCostMoreThan?price=50");
+            }
+
+            IEnumerable<Product> model = db.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .Where(p => p.UnitPrice > price);
+
+            if (model.Count() == 0)
+            {
+                return NotFound($"No products cost more than {price:C}.");
+            }
+
+            ViewData["MaxPrice"] = price.Value.ToString("C");
+            return View(model); //pass model to view
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

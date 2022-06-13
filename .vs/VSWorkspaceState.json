@@ -6,10 +6,11 @@
     "\\NorthwindMvc\\Areas\\Identity",
     "\\NorthwindMvc\\Areas\\Identity\\Pages",
     "\\NorthwindMvc\\Controllers",
+    "\\NorthwindMvc\\Models",
     "\\NorthwindMvc\\Views",
     "\\NorthwindMvc\\Views\\Home",
     "\\NorthwindMvc\\Views\\Shared"
   ],
-  "SelectedNode": "\\NorthwindMvc\\Views\\Home\\ProductDetail.cshtml",
+  "SelectedNode": "\\NorthwindMvc\\Models\\HomeModelBindingViewModel.cs",
   "PreviewInSolutionExplorer": false
 }
