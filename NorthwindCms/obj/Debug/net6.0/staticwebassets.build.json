@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "myPYis5uQONJZGVDtFzxHPR6hC2MUUMB5uf2SIc/Rwo=",
+  "Source": "NorthwindCms",
+  "BasePath": "_content/NorthwindCms",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NorthwindCms\\wwwroot",
+      "Source": "NorthwindCms",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindCms\\wwwroot\\",
+      "BasePath": "_content/NorthwindCms",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindCms\\wwwroot\\assets\\css\\style.min.css",
+      "SourceId": "NorthwindCms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\Coding\\C#AndDotNet5 Mk2\\PracticalApps\\NorthwindCms\\wwwroot\\",
+      "BasePath": "_content/NorthwindCms",
+      "RelativePath": "assets/css/style.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\style.min.css"
+    }
+  ]
+}
