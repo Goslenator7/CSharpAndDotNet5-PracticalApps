@@ -11,6 +11,6 @@
     "\\NorthwindMvc\\Views\\Home",
     "\\NorthwindMvc\\Views\\Shared"
   ],
-  "SelectedNode": "\\NorthwindMvc\\Models\\HomeModelBindingViewModel.cs",
+  "SelectedNode": "\\NorthwindMvc\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
