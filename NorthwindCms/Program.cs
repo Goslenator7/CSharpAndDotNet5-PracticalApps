@@ -65,6 +65,9 @@ app.UsePiranha(options =>
         .Build()
         .DeleteOrphans();
 
+    // register GIFs as a media type
+    App.MediaTypes.Images.Add(".gif", "image/gif");
+
     // Configure Tiny MCE
     EditorConfig.FromFile("editorconfig.json");
 
