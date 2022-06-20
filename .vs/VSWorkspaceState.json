@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NorthwindMvc",
+    "\\NorthwindCms",
+    "\\NorthwindCms\\Controllers",
+    "\\NorthwindCms\\Views\\Cms",
     "\\NorthwindMvc\\Areas",
     "\\NorthwindMvc\\Areas\\Identity",
     "\\NorthwindMvc\\Areas\\Identity\\Pages",
-    "\\NorthwindMvc\\Controllers",
     "\\NorthwindMvc\\Models",
     "\\NorthwindMvc\\Views",
     "\\NorthwindMvc\\Views\\Home",
     "\\NorthwindMvc\\Views\\Shared"
   ],
-  "SelectedNode": "\\NorthwindMvc\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\NorthwindCms\\Controllers\\CmsController.cs",
   "PreviewInSolutionExplorer": false
 }

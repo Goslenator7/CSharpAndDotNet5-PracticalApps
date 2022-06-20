@@ -4,6 +4,7 @@ using Piranha.AttributeBuilder;
 using Piranha.AspNetCore.Identity.SQLite;
 using Piranha.Data.EF.SQLite;
 using Piranha.Manager.Editor;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,10 @@ builder.AddPiranha(options =>
     var connectionString = builder.Configuration.GetConnectionString("piranha");
     options.UseEF<SQLiteDb>(db => db.UseSqlite(connectionString));
     options.UseIdentityWithSeed<IdentitySQLiteDb>(db => db.UseSqlite(connectionString));
+
+    string databasePath = Path.Combine("..", "Northwind.db");
+      services.AddDbContext<Packt.Shared.Northwind>(options =>
+        options.UseSqlite($"Data Source={databasePath}"));
 
     /**
      * Here you can configure the different permissions
